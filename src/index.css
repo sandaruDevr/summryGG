@@ -1,0 +1,215 @@
+@import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  zoom: 55%;
+}
+
+hero-text-gradient {
+  background: linear-gradient(
+    89.28deg,
+    #3b75fb 34.93%,
+    #7f7ff1 49.46%,
+    #ff3a64 82.81%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.youtube_dragons_heading {
+  background: linear-gradient(
+    90.34deg,
+    #3b75fb 8.62%,
+    #7f7ff1 30.87%,
+    #ff3a64 81.97%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.youtube_dragons_container {
+  background-image: url("./assets/youtube_dragons_bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pricing_heading {
+  background: linear-gradient(
+    90.48deg,
+    #3b75fb 59.67%,
+    #7f7ff1 69.27%,
+    #ff3a64 91.33%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.features_heading {
+  background: linear-gradient(
+    90.15deg,
+    #3b75fb 63.94%,
+    #7f7ff1 73.19%,
+    #ff3a64 94.42%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.faqs_heading {
+  background: linear-gradient(
+    90.84deg,
+    #3b75fb 49.58%,
+    #7f7ff1 60.53%,
+    #ff3a64 85.64%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.manners_heading {
+  background: linear-gradient(
+    91.02deg,
+    #3b75fb 11.82%,
+    #7f7ff1 20.59%,
+    #ff3a64 40.72%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.manner_bg_1 {
+  background-image: url("./assets/manners_bg_1.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.manner_subheading {
+  background: linear-gradient(
+    90.84deg,
+    #3b75fb 49.58%,
+    #7f7ff1 60.53%,
+    #ff3a64 85.64%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.hero_container {
+  background-image: url("./assets/hero_background_gradient.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .hero_container {
+    background-image: none;
+  }
+}
+
+.hero_text_1 {
+  background: linear-gradient(
+    88.82deg,
+    #3b75fb 7.46%,
+    #7f7ff1 16.85%,
+    #ff3a64 38.39%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.hero_text_2 {
+  background: linear-gradient(
+    89.28deg,
+    #3b75fb 34.93%,
+    #7f7ff1 49.46%,
+    #ff3a64 82.81%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.sub_text_1 {
+  background: linear-gradient(
+    88.99deg,
+    #3b75fb 22.44%,
+    #7f7ff1 34.71%,
+    #ff3a64 62.89%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.sub_text_2 {
+  background: linear-gradient(
+    88.16deg,
+    #3b75fb 31.77%,
+    #7f7ff1 37.44%,
+    #ff3a64 44.14%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+
+.pricing_box_container {
+  border-image-source: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.3) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    radial-gradient(
+      26.44% 26.44% at 50% 0%,
+      #ffffff 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  background-color: #4a8fef0a;
+  backdrop-filter: blur(24.512474060058594px);
+
+  box-shadow: 0px -33.09px 84.45px 0px #0000000a;
+
+  box-shadow: 0px -2.45px 4.9px 0px #0000000d;
+}
+
+.pricing_box_subcontainer {
+  border-image-source: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.3) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    radial-gradient(
+      26.44% 26.44% at 50% 0%,
+      #ffffff 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  box-shadow: 0px 4px 4px 0px #0000000d;
+  background-color: white;
+}
