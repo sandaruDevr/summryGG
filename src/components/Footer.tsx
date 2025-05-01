@@ -13,10 +13,14 @@ const Footer = () => {
 
                     <p className="text-base md:text-2xl text-[#040505] leading-[38px] tracking-[-0.5%]">Transforming how the world learns.</p>
 
-                    <button className="bg-[#009EFF] cursor-pointer text-white text-base md:text-2xl font-medium px-5 md:px-[30px] py-4 md:py-[20px] rounded-md md:rounded-[10px] flex items-center gap-3 hover:bg-opacity-90 transition-all duration-300">
-                        <img src={Stars} alt="stars" loading='lazy' className="h-5 md:h-auto" />
-                        Start 3–Day Trial
-                    </button>
+                   <button
+  onClick={() => window.location.href = '/app'}
+  className="bg-[#009EFF] cursor-pointer text-white text-base md:text-2xl font-medium px-5 md:px-[30px] py-4 md:py-[20px] rounded-md md:rounded-[10px] flex items-center gap-3 transform transition-transform duration-300 hover:scale-105"
+>
+  <img src={Stars} alt="stars" loading="lazy" className="h-5 md:h-auto" />
+  Start 3–Day Trial
+</button>
+
                 </div>
 
                 {/* Right */}
