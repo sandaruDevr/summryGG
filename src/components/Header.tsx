@@ -49,11 +49,12 @@ const Header = () => {
 
                     <button
   onClick={() => window.location.href = '/app'}
-  className="flex items-center cursor-pointer rounded-[10px] px-7 py-5 gap-[10px] bg-[#009EFF] hover:bg-[#007ACC] transition-colors duration-200 text-white font-medium text-[22px] leading-[100%] tracking-[-0.5%]"
+  className="flex items-center cursor-pointer rounded-[10px] px-7 py-5 gap-[10px] bg-[#009EFF] text-white font-medium text-[22px] leading-[100%] tracking-[-0.5%] transform transition-transform duration-300 hover:scale-105"
 >
   Get Started
   <img src={RightArrow} alt="Right Arrow" />
 </button>
+
 
                 </div>
 
