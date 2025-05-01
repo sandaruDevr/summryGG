@@ -66,9 +66,9 @@ const Pricing = () => {
                             Warning: So effective, you might start skipping full videos on instinct – if that’s your thing.
                         </p>
 
-                       <button
+                     <button
   onClick={() => window.location.href = '/app'}
-  className="bg-[#009EFF] text-white text-base md:text-2xl font-medium px-5 md:px-[30px] py-4 md:py-[20px] rounded-md md:rounded-[10px] flex items-center justify-center cursor-pointer gap-3 hover:bg-[#007ACC] transition-all duration-300 w-full"
+  className="bg-[#009EFF] text-white text-base md:text-2xl font-medium px-5 md:px-[30px] py-4 md:py-[20px] rounded-md md:rounded-[10px] flex items-center justify-center cursor-pointer gap-3 transform transition-transform duration-300 hover:scale-105 w-full"
 >
   <img src={Stars} alt="stars" loading="lazy" className="h-5 md:h-auto" />
   Start 3–Day Trial
