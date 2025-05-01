@@ -48,12 +48,19 @@ const Hero = () => {
                         </p>
 
 
-                        <button className='px-2 py-[20px] md:py-[20px] my-2 md:my-6 cursor-pointer w-full max-w-[179px] md:max-w-[358px] text-center justify-center rounded-[5.5px] gap-[5px] bg-[#009EFF] font-bold text-[19px] md:text-[19px] tracking-[-0.25%] text-white flex items-center
-'>
-                            <img src={Stars} alt="stars" loading='lazy' className='h-[25px] md:h-[25px]
-' />
-                            TRY IT FOR FREE
-                        </button>
+                       <button
+  onClick={() => window.location.href = '/app'}
+  className="px-2 py-[20px] md:py-[20px] my-2 md:my-6 cursor-pointer w-full max-w-[179px] md:max-w-[358px] text-center justify-center rounded-[5.5px] gap-[5px] bg-[#009EFF] hover:bg-[#007ACC] transition-colors duration-200 font-bold text-[19px] md:text-[19px] tracking-[-0.25%] text-white flex items-center"
+>
+  <img
+    src={Stars}
+    alt="stars"
+    loading="lazy"
+    className="h-[25px] md:h-[25px]"
+  />
+  TRY IT FOR FREE
+</button>
+
                     </div>
 
                     <div className='font-medium text-sm md:text-[33px] leading-[22px] md:leading-[48.7px] tracking-[-0.5%] text-black text-center'>
